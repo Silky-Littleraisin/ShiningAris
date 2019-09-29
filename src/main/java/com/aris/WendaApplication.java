@@ -6,13 +6,13 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class QueryApplication extends SpringBootServletInitializer {
+public class WendaApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(QueryApplication.class);
+        return builder.sources(WendaApplication.class);
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(QueryApplication.class, args);
+        SpringApplication.run(WendaApplication.class, args);
     }
 }

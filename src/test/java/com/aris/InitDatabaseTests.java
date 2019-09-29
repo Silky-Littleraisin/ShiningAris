@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.Random;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = QueryApplication.class)
+@SpringApplicationConfiguration(classes = WendaApplication.class)
 //@Sql("/init-schema.sql")
 public class InitDatabaseTests {
     @Autowired

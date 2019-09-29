@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * Created by aris on 2016/8/28.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = QueryApplication.class)
+@SpringApplicationConfiguration(classes = WendaApplication.class)
 public class LikeServiceTests {
     @Autowired
     LikeService likeService;
