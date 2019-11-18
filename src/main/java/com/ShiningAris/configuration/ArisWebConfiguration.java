@@ -10,6 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * Created by nowcoder on 2016/7/3.
  */
+
 @Component
 public class ArisWebConfiguration extends WebMvcConfigurerAdapter {
     @Autowired
