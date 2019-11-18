@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * Created by nowcoder on 2016/7/3.
  */
-public class WendaUtil {
+public class ArisUtil {
     private static final Logger logger = LoggerFactory.getLogger(WendaUtil.class);
 
     public static int ANONYMOUS_USERID = 3;
