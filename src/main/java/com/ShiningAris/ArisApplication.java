@@ -13,6 +13,7 @@ public class ArisApplication extends SpringBootServletInitializer {
         return builder.sources(ArisApplication.class);
     }
 
+    
     public static void main(String[] args) {
         SpringApplication.run(ArisApplication.class, args);
     }
