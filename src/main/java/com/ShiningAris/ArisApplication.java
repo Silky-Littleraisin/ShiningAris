@@ -1,4 +1,4 @@
-package com.nowcoder;
+package com.shiningaris;
 
 import com.nowcoder.model.User;
 import org.springframework.boot.SpringApplication;
@@ -7,13 +7,13 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class WendaApplication extends SpringBootServletInitializer {
+public class ArisApplication extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(WendaApplication.class);
+        return builder.sources(ArisApplication.class);
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(WendaApplication.class, args);
+        SpringApplication.run(ArisApplication.class, args);
     }
 }
