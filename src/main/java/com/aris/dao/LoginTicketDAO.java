@@ -4,7 +4,7 @@ import com.aris.model.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 /**
- * Created by aris on 2016/7/2.
+ * Created by aris on 2018/7/2.
  */
 @Mapper
 public interface LoginTicketDAO {

@@ -1,7 +1,7 @@
 package com.aris.model;
 
 /**
- * Created by aris on 2016/6/26.
+ * Created by aris on 2018/6/26.
  */
 public class User {
     private int id;

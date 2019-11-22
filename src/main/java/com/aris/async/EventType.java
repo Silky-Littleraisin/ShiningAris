@@ -1,7 +1,7 @@
 package com.aris.async;
 
 /**
- * Created by aris on 2016/7/30.
+ * Created by aris on 2018/7/30.
  */
 public enum EventType {
     LIKE(0),

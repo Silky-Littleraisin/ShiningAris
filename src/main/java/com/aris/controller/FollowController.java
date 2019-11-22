@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 /**
- * Created by aris on 2016/7/30.
+ * Created by aris on 2018/7/30.
  */
 @Controller
 public class FollowController {
